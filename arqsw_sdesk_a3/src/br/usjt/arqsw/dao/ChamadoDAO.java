@@ -37,7 +37,7 @@ public class ChamadoDAO {
 			chamadoDAO.setStatus("ABERTO");
 			
 			fila.setId(1);
-			fila.setNome("Jheferson");
+			fila.setNome("Ana");
 			
 			manager.getTransaction().begin();
 			chamadoDAO.criar(chamadoDAO);
