@@ -19,7 +19,7 @@ import br.usjt.arqsw.service.FilaService;
 
 /**
  * 
- * @author Rafael Romero RA: 81612351
+ * @author Vinicius Regina RA: 816124344
  *
  */
 
@@ -46,7 +46,7 @@ public class ManterChamadosController {
 	
 	/**
 	 * 
-	 * @param model Acesso a  request http
+	 * @param model Acesso aÂ  request http
 	 * @return JSP de listar Chamados
 	 */
 	
@@ -73,7 +73,7 @@ public class ManterChamadosController {
 			fila = filaService.carregar(fila.getId());
 			model.addAttribute("fila", fila);
 
-			// TODO Código para carregar os chamados
+			// TODO CÃ³digo para carregar os chamados
 			ArrayList<Chamado> chamados = chamadoService.listarChamados(fila);
 			model.addAttribute("chamados", chamados);
 			
