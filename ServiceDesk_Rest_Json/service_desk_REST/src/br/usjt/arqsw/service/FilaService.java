@@ -12,7 +12,7 @@ import br.usjt.arqsw.entity.Fila;
 
 /**
  * 
- * @author Antônio Amadeu Freire Lucena 816117925
+ * @author Vinicius Regina
  *
  */
 @Service
