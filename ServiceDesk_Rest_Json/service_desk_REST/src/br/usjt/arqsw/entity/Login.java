@@ -9,7 +9,7 @@ import javax.validation.constraints.NotNull;
 
 /**
  * 
- * @author Ant�nio Amadeu Freire Lucena 816117925
+ * @author Vinicius Regina
  *
  */
 
@@ -20,12 +20,12 @@ public class Login implements Serializable{
 
 	public static final String LOGADO = "logado";
 					
-		@NotNull(message="O usuario não pode ser vazio")
-		@Min(value=10, message="O user não pode ser vazia")
+		@NotNull(message="O usuario nÃ£o pode ser vazio")
+		@Min(value=10, message="O user nÃ£o pode ser vazia")
 		private String username;
 		
-		@NotNull(message="O usuario não pode ser vazio")
-		@Min(value=10, message="O user não pode ser vazia")		
+		@NotNull(message="O usuario nÃ£o pode ser vazio")
+		@Min(value=10, message="O user nÃ£o pode ser vazia")		
 		private String password;
 	
 	public String getUsername() {
