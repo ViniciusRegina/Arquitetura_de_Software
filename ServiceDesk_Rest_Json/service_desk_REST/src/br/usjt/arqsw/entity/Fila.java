@@ -11,7 +11,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 /**
  * 
- * @author Antônio Amadeu Freire Lucena 816117925
+ * @author Vinicius Regina
  *
  */
 
