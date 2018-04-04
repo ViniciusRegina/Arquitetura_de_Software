@@ -19,7 +19,7 @@ import br.usjt.arqsw.service.FilaService;
 
 /**
  * 
- * @author Ant�nio Amadeu Freire Lucena 816117925
+ * @author Vinicius Regina
  *
  */
 
@@ -53,7 +53,7 @@ public class ManterChamadosController {
 					
 	/**
 	 * 
-	 * @param model Acesso à request http
+	 * @param model Acesso Ã  request http
 	 * @return JSP de Listar Chamados
 	 */
 	@RequestMapping("/listar_filas_exibir")
@@ -92,7 +92,7 @@ public class ManterChamadosController {
 	}
 
 	
-	//TODO Complete o m�todo listarChamadosExibir do controller. 
+	//TODO Complete o método listarChamadosExibir do controller. 
 	
 	@RequestMapping("/listar_chamados_exibir")
 	public String listarChamadosExibir(@Valid Fila fila, BindingResult result, Model model) {
