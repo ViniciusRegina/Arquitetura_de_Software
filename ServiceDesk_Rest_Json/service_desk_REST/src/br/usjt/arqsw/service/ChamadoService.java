@@ -12,11 +12,11 @@ import br.usjt.arqsw.dao.ChamadoDAO;
 import br.usjt.arqsw.entity.Chamado;
 import br.usjt.arqsw.entity.Fila;
 
-//TODO  Faça o ChamadoService na package servisse com um método para listar os chamados 
-//      recebendo como parâmetro um objeto Fila
+//TODO  FaÃ§a o ChamadoService na package servisse com um mÃ©todo para listar os chamados 
+//      recebendo como parÃ¢metro um objeto Fila
 /**
  * 
- * @author Antônio Amadeu Freire Lucena 816117925
+ * @author Vinicius Regina
  *
  */
 
