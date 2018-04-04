@@ -16,7 +16,7 @@ import javax.validation.constraints.Size;
 
 /**
  * 
- * @author Ant�nio Amadeu Freire Lucena 816117925 
+ * @author Vinicius Regina
  *
  */
 @Entity
@@ -34,7 +34,7 @@ public class Chamado implements Serializable {
 		
 	@NotNull	
 	@Column(name="Descricao")
-	@Size(max=100,min=10, message="O tamanho da descrição deve estar entre 10 e 100 caracteres")
+	@Size(max=100,min=10, message="O tamanho da descriÃ§Ã£o deve estar entre 10 e 100 caracteres")
 	private String Descricao;  
 	
 	@NotNull
