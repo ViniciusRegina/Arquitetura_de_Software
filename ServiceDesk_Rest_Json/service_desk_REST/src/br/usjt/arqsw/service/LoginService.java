@@ -7,7 +7,7 @@ import br.usjt.arqsw.dao.LoginDAO;
 
 /**
  * 
- * @author Antônio Amadeu Freire Lucena 816117925
+ * @author Vinicius Regina
  *
  */
 
